@@ -10,9 +10,8 @@ body{
     justify-content: center;
     align-items: center;
 }
-.box1{
+.box{
     border: 2px solid black;
-    background-color: green;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,37 +20,18 @@ body{
     width: 50px;
     cursor: pointer;
 }
-.box2{
-    border: 2px solid black;
+#green{
+background-color: green;
+}
+#red{
     background-color:red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 5px;
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
+   
 }
-.box3{
-    border: 2px solid black;
+#blue{
     background-color: blue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 5px;
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
 }
-.box4{
-    border: 2px solid black;
-    background-color:yellow;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 5px;
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
+#yellow{
 
+    background-color:yellow;
+   
 }
