@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(202, 224, 244);
+    font-family: sans-serif;
+}
+.container{
+    text-align: center;
+    font-size: 25px;
+    height: 400px;
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 10%;
+    box-sizing: border-box;
+    box-shadow: 3px 1px 50px 1px;
+}
+.inp{
+    
+
+}
+#cal-btn{
+    font-size: 25px;
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(237, 177, 98);
+}
