@@ -16,6 +16,7 @@ button{
     border: none;
     border-radius: 5px;
     box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.2), 0px 8px 12px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 
 
 }
@@ -26,16 +27,24 @@ button{
 #operator{
     color: orangered;
 }
+.container-1{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(156, 150, 150);
+    border-radius: 10px;
+}
 .container{
     border: none;
-    border-radius: 10px;
-    background-color: rgb(156, 150, 150);
-    height: 300px;
-    width: 300px;
     display: flex;
     justify-content: center;
-    align-items: center;
+
 }
 .calculator{
     font-size: 30px;
+}
+#input{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 20px;
+    color: white;
 }
