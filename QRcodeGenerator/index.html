@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Generate QR Code </h1>
+        <input class="inp" type="text" placeholder="Type your text or URL">
+        <div class="qr-header">
+        <p class="slct">seelect Size <select id="slct">
+            <option id="op">100x100</option>
+            <option id="op">200x200</option>
+            <option id="op">300x300</option>
+        </select></p>
+        <div class="display">
+            
+        </div>
+
+        <button class="btn"><a class="btn2" href="www.google.com">GENERATE</a></button>
+        <button class="btn"><a class="btn2">DOWNLOAD</a></button>
+
+    </div>
+    </div>
+</body>
+ <script src="logic.js" type="text/javascript">
+    new QRCode(document.getElementById("qrcode"), "http://jindo.dev.naver.com/collie");
+    </script>
+</html>
